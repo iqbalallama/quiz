@@ -5,9 +5,26 @@ body{
 }
 .main{
     width: 80%;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part{
+    width: 48%;
 }
 .option{
     display: flex;
     align-items: center;
+}
+.mark{
+    text-align: center;
+}
+#submit{
+    background-color: coral;
+    color:black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -5px -5px 5px black;
+    cursor: pointer;
 }
