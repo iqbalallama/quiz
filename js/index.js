@@ -25,4 +25,7 @@ document.getElementById('submit').addEventListener('click',function(){
     document.body.style.color = 'white';
     btn.style.boxShadow = '5px 5px 5px white';
     alert('you got ' + count);
+    const wrongMark = 4 - count;
+    mark.innerText = `your mark  ${count}`;
+    wrong.innerText = `wrong ans  ${wrongMark}`
 })
