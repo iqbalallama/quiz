@@ -28,3 +28,15 @@ body{
     box-shadow: -5px -5px 5px black;
     cursor: pointer;
 }
+@media screen and (max-width:750px) {
+    .main{
+        width: 100%;
+        flex-direction: column;
+    }
+    .part{
+        width: 80%;
+    }
+    .mark{
+        margin-top: 80px;
+    }
+}
